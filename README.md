@@ -17,5 +17,7 @@ Log Loss=−1𝑁0∑𝑁0𝑖=1𝑦0𝑖log𝑝0𝑖−1𝑁1∑𝑁1𝑖=1𝑦
 where (N_{c}) is the number of observations of class (c), (\log) is the natural logarithm, (y_{c i}) is 1 if observation (i) belongs to class (c) and 0 otherwise, (p_{c i}) is the predicted probability that observation (i) belongs to class (c).
 
 The submitted probabilities for a given row are not required to sum to one because they are rescaled prior to being scored (each row is divided by the row sum). In order to avoid the extremes of the log function, each predicted probability 𝑝
- is replaced with max(min(𝑝,1−10−15),10−15)
-.
+ is replaced with max(min(𝑝,1−10−15),10−15).
+ 
+ ![image](https://github.com/huB-ram/ICR_IdentifyingAgeRelatedConditions/assets/120548753/eb9c8292-ba3a-4496-9d66-f7af72bf2ff8)
+
